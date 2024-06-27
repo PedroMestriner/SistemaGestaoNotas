@@ -1,0 +1,19 @@
+Requerimentos
+Para executar este código, você precisará de:
+Linguagem de programação:
+Python 3.7+
+Gerenciador de pacotes Python:
+pip (geralmente instalado com o Python)
+
+Bibliotecas Python:
+fastapi - Framework web para construir APIs.
+uvicorn - Servidor web ASGI para executar a aplicação FastAPI.
+pydantic - Biblioteca para validação de dados e gerenciamento de modelos.
+Para instalar as bibliotecas, execute o seguinte comando no seu terminal:
+pip install fastapi uvicorn pydantic
+
+Execução da aplicação:
+Salve o código como um arquivo Python (ex: main.py).
+No terminal, navegue até o diretório onde o arquivo foi salvo.
+Execute o seguinte comando para iniciar o servidor:
+uvicorn main:app --reload
